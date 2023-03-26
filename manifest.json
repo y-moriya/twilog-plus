@@ -1,0 +1,16 @@
+{
+  "name": "Twilog Plus",
+  "description": "Enhance your Twilog experience with Twilog Plus, the ultimate browser extension for added functionality and convenience.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+        "matches": ["https://twilog.org/*"],
+        "js": ["src/contentScript.ts"]
+    }
+  ]
+}
