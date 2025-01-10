@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 app.innerHTML = `
-  <h1>Ignore keywords</h1>
+  <h1>Twilog Plus</h1>
+  <h2>Ignore keywords</h2>
   <textarea id="keywords" rows="10" cols="30"></textarea>
   <button id="saveButton">Save</button>
 `;
